@@ -2,3 +2,57 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+body {
+  background-color: #73f293;
+}
+
+video {
+  margin: 25px;
+}
+
+h2 {
+  margin-left: 25px;
+}
+
+p {
+  margin-left: 25px;
+}
+
+h3 {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+h5 {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  float: left;
+  width: 50%;
+  /* Adjust the width as needed */
+  display: block;
+  border: 4px solid black;
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.image {
+  float: right;
+  width: 30%;
+  margin: 25px;
+}
+
+.mdl-chip {
+  width: 100px;
+  margin-left: 250px;
+  text-align: center;
+}
